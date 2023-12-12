@@ -21,6 +21,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import constants.Constants;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utility.ElementUtility;
 
 
@@ -32,7 +33,7 @@ public class BaseTest {
 	  public void beforeMethod(@Optional ("chrome")String browser) {
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
-			  
+			  WebDriverManager.chromedriver().setup();
 			  driver=new ChromeDriver();  
 		  }
 		  else if(browser.equalsIgnoreCase("edge"))
