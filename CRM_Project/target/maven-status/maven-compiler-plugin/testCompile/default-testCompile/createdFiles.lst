@@ -3,7 +3,5 @@ test\NoteTest.class
 test\BaseTest.class
 test\LoginTest.class
 generaltests\Listener.class
-test\package-info.class
 test\ClientTest.class
 test\ProjectTest.class
-generaltests\package-info.class
