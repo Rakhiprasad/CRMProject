@@ -21,7 +21,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import constants.Constants;
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 import utility.ElementUtility;
 
 
@@ -33,11 +33,8 @@ public class BaseTest {
 	  public void beforeMethod(@Optional ("chrome")String browser) {
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
-			  //System.setProperty("webdriver.chrome.driver", "C:\\Users\\RAKHI\\eclipse-workspace\\CRM_Project\\src\\test\\resources\\chrome-win64\\chrome.exe");
-			  //WebDriverManager.chromedriver().driverVersion("120.0.0").setup();
-
-
-
+			  //System.setProperty("webdriver.chrome.driver", "C:\\Users\\RAKHI\\eclipse-workspace\\CRM_Project\\src\\test\\resources\\chromedriver-win64\\chromedriver.exe");
+			  //WebDriverManager.chromedriver().driverVersion("120").setup();
 
 			  driver=new ChromeDriver();  
 		  }
