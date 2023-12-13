@@ -75,7 +75,12 @@
 	<artifactId>webdrivermanager</artifactId>
 	<version>5.3.0</version>
 </dependency>
-
+<!--<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.0.3</version> 
+    <scope>test</scope>
+</dependency>-->
 </dependencies>
 <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -113,7 +118,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>multibrowser.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
