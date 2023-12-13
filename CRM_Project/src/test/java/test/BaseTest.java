@@ -33,7 +33,8 @@ public class BaseTest {
 	  public void beforeMethod(@Optional ("chrome")String browser) {
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
-			  //WebDriverManager.chromedriver().setup();
+			  System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
+			  WebDriverManager.chromedriver().setup();
 			  driver=new ChromeDriver();  
 		  }
 		  else if(browser.equalsIgnoreCase("edge"))
