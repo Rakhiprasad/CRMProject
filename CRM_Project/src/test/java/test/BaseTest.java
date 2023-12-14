@@ -33,8 +33,8 @@ public class BaseTest {
 	  public void beforeMethod(@Optional ("chrome")String browser) {
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
-			  //System.setProperty("webdriver.chrome.driver", "C:\\Users\\RAKHI\\eclipse-workspace\\CRM_Project\\src\\test\\resources\\chromedriver-win64\\chromedriver.exe");
-			  WebDriverManager.chromedriver().driverVersion("120").setup();
+			  System.setProperty("webdriver.chrome.driver", "C:\\Users\\RAKHI\\eclipse-workspace\\CRM_Project\\src\\test\\resources\\chromedriver-win64\\chromedriver.exe");
+			  //WebDriverManager.chromedriver().driverVersion("120").setup();
 
 			  driver=new ChromeDriver();  
 		  }
