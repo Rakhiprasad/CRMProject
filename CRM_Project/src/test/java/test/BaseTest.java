@@ -34,7 +34,7 @@ public class BaseTest {
 		  if(browser.equalsIgnoreCase("chrome"))
 		  {
 			  System.setProperty("webdriver.chrome.driver", "C:\\Users\\RAKHI\\eclipse-workspace\\CRM_Project\\src\\test\\resources\\chromedriver-win64\\chromedriver.exe");
-			  WebDriverManager.chromedriver().driverVersion("120").setup();
+			  WebDriverManager.chromedriver().driverVersion("120.0.6099.71").setup();
 
 			  driver=new ChromeDriver();  
 		  }
