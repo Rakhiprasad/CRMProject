@@ -53,7 +53,7 @@ public class ClientTest extends BaseTest {
 	  ClientPage clientPage=new ClientPage(driver);
 	  clientPage.doClickClient();
 	  String companyNameInsideTableToEdit=clientPage.doClickSearchClient(ExcelRead.getString(1, 0, "clientdata"));
-	  clientPage.doEditClient("obsqura@obsqura1");
+	  clientPage.doEditClient(ExcelRead.getString(1, 7, "clientdata"));
 	  clientPage.doClickClient();
 	  String companyNameEditedInsideTable=clientPage.doClickSearchClient(ExcelRead.getString(1, 7, "clientdata"));
 	  Assert.assertEquals(companyNameEditedInsideTable, ExcelRead.getString(1, 7, "clientdata"), ExcelRead.getString(3, 9, "clientdata"));
