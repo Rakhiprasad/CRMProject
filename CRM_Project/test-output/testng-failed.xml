@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.ProjectTest">
+      <class name="test.ClientTest">
         <methods>
-          <include name="verifyUserIsAbleToEditProject" invocation-numbers="0 0 0"/>
+          <include name="verifyUserIsAbleToEditClient" invocation-numbers="0 0"/>
           <include name="beforeMethod"/>
           <include name="takeScreenShotOnFailure"/>
+          <include name="verifyUserIsAbleToAddClient" invocation-numbers="0"/>
         </methods>
-      </class> <!-- test.ProjectTest -->
+      </class> <!-- test.ClientTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -46,7 +46,8 @@ public class NotePage  {
 	WebElement deleteButtonConfirm;
 	@FindBy(xpath="//button[@id='confirmDeleteButton']")
 	WebElement deleteCheck;	
-	@FindBy(xpath="//table[@id='note-table']//tbody//tr[1]//td[1]")
+	//@FindBy(xpath="//table[@id='note-table']//tbody//tr[1]//td[1]")
+	@FindBy(xpath="//div[@class='app-alert-message']")
 	WebElement deletetext;
 	
 	
