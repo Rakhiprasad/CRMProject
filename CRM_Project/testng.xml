@@ -7,9 +7,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="test.LoginTest"/>
-     <!-- <class name="test.NoteTest"/>
+     <class name="test.NoteTest"/>
       <class name="test.ClientTest"/>
-      <class name="test.ProjectTest"/>-->
+      <class name="test.ProjectTest"/>
       
     </classes>
   </test> <!-- Test -->
