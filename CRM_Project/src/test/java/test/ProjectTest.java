@@ -51,7 +51,7 @@ public class ProjectTest extends BaseTest {
 	  String TitleToBeEditedInsideTable=projectPage.doClickSearchProject(ExcelRead.getString(1, 0, "projectdata"));
 	  projectPage.doEditProject(ExcelRead.getString(1, 4, "projectdata"));
 	  projectPage.doClickAllProject();
-	  String TitleEditedInsideTable=projectPage.doClickSearchProject("abc1");
+	  String TitleEditedInsideTable=projectPage.doClickSearchProject(ExcelRead.getString(1, 4, "projectdata"));
 	  Assert.assertEquals(TitleEditedInsideTable, ExcelRead.getString(1, 4, "projectdata"), ExcelRead.getString(3, 6, "projectdata"));
 	  
 }
