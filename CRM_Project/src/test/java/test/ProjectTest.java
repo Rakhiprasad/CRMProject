@@ -1,21 +1,16 @@
 package test;
 
-import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import constants.Constants;
-import page.ClientPage;
 import page.LoginPage;
 import page.ProjectPage;
 import utility.ExcelRead;
-import utility.FakerUtility;
 
 public class ProjectTest extends BaseTest {
 	

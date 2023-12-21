@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-20T11:31:18 GMT-08:00" name="Default suite" finished-at="2023-12-20T11:33:50 GMT-08:00" duration-ms="151895">
+  <suite started-at="2023-12-20T19:08:09 GMT-08:00" name="Suite" finished-at="2023-12-20T19:10:29 GMT-08:00" duration-ms="139863">
     <groups>
       <group name="regression">
-        <method signature="ProjectTest.verifyUserIsAbleToAddProject(java.lang.String,java.lang.String)[pri:1, instance:test.ProjectTest@7f3b84b8]" name="verifyUserIsAbleToAddProject" class="test.ProjectTest"/>
-        <method signature="ProjectTest.verifyUserIsAbleToEditProject(java.lang.String,java.lang.String)[pri:3, instance:test.ProjectTest@7f3b84b8]" name="verifyUserIsAbleToEditProject" class="test.ProjectTest"/>
-        <method signature="ProjectTest.verifyUserIsAbleToSearchProject(java.lang.String,java.lang.String)[pri:2, instance:test.ProjectTest@7f3b84b8]" name="verifyUserIsAbleToSearchProject" class="test.ProjectTest"/>
+        <method signature="LoginTest.login(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@5f8e8a9d]" name="login" class="test.LoginTest"/>
+        <method signature="NoteTest.VerifyUserIsAbleToAddNote(java.lang.String,java.lang.String)[pri:1, instance:test.NoteTest@821330f]" name="VerifyUserIsAbleToAddNote" class="test.NoteTest"/>
+        <method signature="NoteTest.VerifyUserIsAbleToDeletNote(java.lang.String,java.lang.String)[pri:4, instance:test.NoteTest@821330f]" name="VerifyUserIsAbleToDeletNote" class="test.NoteTest"/>
+        <method signature="NoteTest.VerifyUserIsAbleToEditNote(java.lang.String,java.lang.String)[pri:3, instance:test.NoteTest@821330f]" name="VerifyUserIsAbleToEditNote" class="test.NoteTest"/>
+        <method signature="NoteTest.VerifyUserIsAbleTosearchNote(java.lang.String,java.lang.String)[pri:2, instance:test.NoteTest@821330f]" name="VerifyUserIsAbleTosearchNote" class="test.NoteTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="ProjectTest.verifyUserIsAbleToAddProject(java.lang.String,java.lang.String)[pri:1, instance:test.ProjectTest@7f3b84b8]" name="verifyUserIsAbleToAddProject" class="test.ProjectTest"/>
+        <method signature="LoginTest.login(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@5f8e8a9d]" name="login" class="test.LoginTest"/>
+        <method signature="NoteTest.VerifyUserIsAbleToAddNote(java.lang.String,java.lang.String)[pri:1, instance:test.NoteTest@821330f]" name="VerifyUserIsAbleToAddNote" class="test.NoteTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-12-20T11:31:18 GMT-08:00" name="Default test" finished-at="2023-12-20T11:33:50 GMT-08:00" duration-ms="151895">
-      <class name="test.ProjectTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:31:21 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T11:31:37 GMT-08:00" duration-ms="16047" status="PASS">
+    <test started-at="2023-12-20T19:08:09 GMT-08:00" name="Test" finished-at="2023-12-20T19:10:29 GMT-08:00" duration-ms="139863">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.LoginTest@5f8e8a9d]" started-at="2023-12-20T19:08:12 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T19:08:33 GMT-08:00" duration-ms="20891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserIsAbleToAddProject(java.lang.String,java.lang.String)[pri:1, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:31:37 GMT-08:00" name="verifyUserIsAbleToAddProject" data-provider="logindataprovider" finished-at="2023-12-20T11:31:55 GMT-08:00" duration-ms="17634" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@5f8e8a9d]" started-at="2023-12-20T19:08:33 GMT-08:00" name="login" data-provider="logindataprovider" finished-at="2023-12-20T19:08:38 GMT-08:00" duration-ms="4602" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +44,21 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToAddProject -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:31:55 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T11:32:10 GMT-08:00" duration-ms="15026" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5f8e8a9d]" started-at="2023-12-20T19:08:38 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T19:08:40 GMT-08:00" duration-ms="1858" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserIsAbleToAddProject status=SUCCESS method=ProjectTest.verifyUserIsAbleToAddProject(java.lang.String,java.lang.String)[pri:1, instance:test.ProjectTest@7f3b84b8] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@5f8e8a9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:32:10 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T11:32:19 GMT-08:00" duration-ms="8955" status="PASS">
+      </class> <!-- test.LoginTest -->
+      <class name="test.NoteTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:08:40 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T19:08:50 GMT-08:00" duration-ms="9635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserIsAbleToSearchProject(java.lang.String,java.lang.String)[pri:2, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:32:19 GMT-08:00" name="verifyUserIsAbleToSearchProject" data-provider="logindataprovider" finished-at="2023-12-20T11:32:28 GMT-08:00" duration-ms="9642" status="PASS">
+        <test-method signature="VerifyUserIsAbleToAddNote(java.lang.String,java.lang.String)[pri:1, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:08:50 GMT-08:00" name="VerifyUserIsAbleToAddNote" data-provider="logindataprovider" finished-at="2023-12-20T19:09:03 GMT-08:00" duration-ms="12730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,19 +84,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToSearchProject -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:32:28 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T11:32:36 GMT-08:00" duration-ms="7776" status="PASS">
+        </test-method> <!-- VerifyUserIsAbleToAddNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:03 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T19:09:04 GMT-08:00" duration-ms="1488" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserIsAbleToSearchProject status=SUCCESS method=ProjectTest.verifyUserIsAbleToSearchProject(java.lang.String,java.lang.String)[pri:2, instance:test.ProjectTest@7f3b84b8] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyUserIsAbleToAddNote status=SUCCESS method=NoteTest.VerifyUserIsAbleToAddNote(java.lang.String,java.lang.String)[pri:1, instance:test.NoteTest@821330f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:32:36 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T11:32:47 GMT-08:00" duration-ms="11083" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:04 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T19:09:18 GMT-08:00" duration-ms="13285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserIsAbleToEditProject(java.lang.String,java.lang.String)[pri:3, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:32:47 GMT-08:00" name="verifyUserIsAbleToEditProject" data-provider="logindataprovider" finished-at="2023-12-20T11:33:24 GMT-08:00" duration-ms="36969" status="PASS">
+        <test-method signature="VerifyUserIsAbleTosearchNote(java.lang.String,java.lang.String)[pri:2, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:18 GMT-08:00" name="VerifyUserIsAbleTosearchNote" data-provider="logindataprovider" finished-at="2023-12-20T19:09:26 GMT-08:00" duration-ms="8075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,99 +122,95 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToEditProject -->
-        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ProjectTest@7f3b84b8]" started-at="2023-12-20T11:33:24 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T11:33:50 GMT-08:00" duration-ms="25138" status="FAIL">
+        </test-method> <!-- VerifyUserIsAbleTosearchNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:26 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T19:09:28 GMT-08:00" duration-ms="2139" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserIsAbleToEditProject status=SUCCESS method=ProjectTest.verifyUserIsAbleToEditProject(java.lang.String,java.lang.String)[pri:3, instance:test.ProjectTest@7f3b84b8] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyUserIsAbleTosearchNote status=SUCCESS method=NoteTest.VerifyUserIsAbleTosearchNote(java.lang.String,java.lang.String)[pri:2, instance:test.NoteTest@821330f] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f944a5f18a494f3460d5acdc36d0df8, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.110, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\RAKHI\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 120.0.6099.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f944a5f18a494f3460d5acdc36d0df8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f944a5f18a494f3460d5acdc36d0df8, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.110, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\RAKHI\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59123/devtoo..., se:cdpVersion: 120.0.6099.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f944a5f18a494f3460d5acdc36d0df8
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:351)
-at test.BaseTest.takeScreenShotOnFailure(BaseTest.java:62)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: driver.version: unknown
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:157)
-... 39 more
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: driver.version: unknown
-at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:183)
-at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:117)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:148)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-      </class> <!-- test.ProjectTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:28 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T19:09:37 GMT-08:00" duration-ms="9072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserIsAbleToEditNote(java.lang.String,java.lang.String)[pri:3, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:37 GMT-08:00" name="VerifyUserIsAbleToEditNote" data-provider="logindataprovider" finished-at="2023-12-20T19:09:52 GMT-08:00" duration-ms="14665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsAbleToEditNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:52 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T19:09:54 GMT-08:00" duration-ms="2282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserIsAbleToEditNote status=SUCCESS method=NoteTest.VerifyUserIsAbleToEditNote(java.lang.String,java.lang.String)[pri:3, instance:test.NoteTest@821330f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:09:54 GMT-08:00" name="beforeMethod" finished-at="2023-12-20T19:10:04 GMT-08:00" duration-ms="9369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserIsAbleToDeletNote(java.lang.String,java.lang.String)[pri:4, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:10:04 GMT-08:00" name="VerifyUserIsAbleToDeletNote" data-provider="logindataprovider" finished-at="2023-12-20T19:10:17 GMT-08:00" duration-ms="13861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsAbleToDeletNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@821330f]" started-at="2023-12-20T19:10:17 GMT-08:00" name="takeScreenShotOnFailure" finished-at="2023-12-20T19:10:29 GMT-08:00" duration-ms="11954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserIsAbleToDeletNote status=SUCCESS method=NoteTest.VerifyUserIsAbleToDeletNote(java.lang.String,java.lang.String)[pri:4, instance:test.NoteTest@821330f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- test.NoteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

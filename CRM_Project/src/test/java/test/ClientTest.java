@@ -7,9 +7,6 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
-import com.sun.net.httpserver.Authenticator.Retry;
 
 import constants.Constants;
 import page.ClientPage;

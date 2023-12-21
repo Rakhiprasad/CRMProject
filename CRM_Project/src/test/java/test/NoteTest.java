@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-
 import constants.Constants;
 import page.LoginPage;
 import page.NotePage;
